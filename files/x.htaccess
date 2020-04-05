@@ -1,0 +1,4 @@
+AuthName "Important Information"
+AuthType Basic
+AuthUserFile ../.htpasswd
+require valid-user
