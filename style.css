@@ -14,19 +14,26 @@ h1 {
     color: maroon;
     font-weight: bold;
     margin-top: 1.7em;
-    margin-bottom: 1.1em;
+    margin-bottom: 0.5em;
    }
 h2 {
     font-size: 150%;
     color: maroon;
     font-weight: bold;
     margin-top: 1.5em;
-    margin-bottom: 1.1em;
+    margin-bottom: 0.5em;
    }
+h3 {
+   font-size: 120%;
+   color: maroon;
+   font-weight: bold;
+   margin-top: 1.3em;
+   margin-bottom: 0.5em;
+  }
 div.spiral {
     background-image: url("images/spiral.png");
     background-repeat: repeat-y;
-}
+    }
 div.page {
     position: relative;
     background-color: ivory;
@@ -48,3 +55,30 @@ tr  {vertical-align: top
 td.first {
     width: 20%;
 }
+img.i300 {
+    width: 300px;
+    height: auto;
+    margin: 0 0 20 20;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+    }
+a:visited {
+    color: green;
+    text-decoration: none;
+    }
+a:hover {
+    color: red;
+    text-decoration: none;
+    }
+a:active {
+    color: hotpink;
+    text-decoration: none;
+    }
+p.copyright {
+    float: left;
+    font-size:70%
+    }
