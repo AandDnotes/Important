@@ -30,6 +30,9 @@ h3 {
    margin-top: 1.3em;
    margin-bottom: 0.5em;
   }
+td.strike {
+  text-decoration-line: line-through;
+  }
 div.spiral {
     background-image: url("images/spiral.png");
     background-repeat: repeat-y;
